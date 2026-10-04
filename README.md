@@ -4,7 +4,7 @@
 
 A good answer is not enough. A local agent also needs to stop when its budget is insufficient or its actions repeat. This source-only demonstration tests both correct completion and correct refusal to continue.
 
-Open [the human demo](index.html), then [technical evidence](reports/index.html).
+Open [Human demo](https://omnimacsystems.github.io/OMNI_LEMONADE_ADAPTER/) for the rendered overview, or [Technical evidence](https://omnimacsystems.github.io/OMNI_LEMONADE_ADAPTER/reports/) for the qualification reports.
 
 ## Results, with scope
 
