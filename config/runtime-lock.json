@@ -1,0 +1,318 @@
+{
+  "lemonade_version": "2026.39.1",
+  "backend": "llama.cpp b10820 CUDA sm_86 Windows x64",
+  "fingerprint": "b10820-74a7c897f",
+  "api_model_id": "extra.Qwen3-4B-Instruct-2507-Q4_K_M",
+  "model_file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+  "model_sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+  "template_sha256": "c979e0e71a3e21b8f208e6ab120d5cb29327885f29d2a8b18fda67a723798e18",
+  "files": [
+    {
+      "root": "lemonade",
+      "path": "lemond.exe",
+      "sha256": "4a62f8193799eb6d0cc28975bcc72338bd6cc795e6f9d977c3012cc2adcc8df7"
+    },
+    {
+      "root": "backend",
+      "path": "cublas64_12.dll",
+      "sha256": "06410281ad6042d2ebd31fa4b315c47acef24dbf9c946f88131e40520c689fbc"
+    },
+    {
+      "root": "backend",
+      "path": "cublasLt64_12.dll",
+      "sha256": "c78619c3e2be314f5cc84640e88aaf493cf404d921745aab6c5ec057a0a7e0d8"
+    },
+    {
+      "root": "backend",
+      "path": "cudart64_12.dll",
+      "sha256": "cf68ac7d47c621988db3343b8a211188e6f94cccf30dec3b15dd52d69fdcf512"
+    },
+    {
+      "root": "backend",
+      "path": "curand64_10.dll",
+      "sha256": "4d6d16c9941c4f7a7e49d5c43df25d408a2a8503d8cc1eb9808e0e0c2cde36d4"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-base.dll",
+      "sha256": "95184874bb250c6601ab9a4d8fe7f01b1eaf1007a14e22be28e64d292bbbdc8b"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-alderlake.dll",
+      "sha256": "d7b7191bfe577ad788303d012ef33a27ff72f52d4713e04ed252ed901248d736"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-cannonlake.dll",
+      "sha256": "a7cd43407943d48e39fed5b18d94b3862a377894dcb0a12e4e262bc5259332ce"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-cascadelake.dll",
+      "sha256": "542d6439e7b636caa934db84e029b0beaaf0dbf82f646068f72b3deb793d70b1"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-cooperlake.dll",
+      "sha256": "a8797ced5b6eb43ae8f625f75cedd19731ea0f75e19f88985883497aa00d03f2"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-haswell.dll",
+      "sha256": "181378512d8b012920ac513a21ebcb63d15861d1503a1e8c60bef45ac1e281af"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-icelake.dll",
+      "sha256": "b7d902afd00ee6bb4477623b7960f538bf1203bbf1150e34e662d624155e8e62"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-ivybridge.dll",
+      "sha256": "e728bb4e940872f2eb7871d82176b967ba8afe8e2dec5d1dcd95fd22ed2ed7a5"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-piledriver.dll",
+      "sha256": "380e00a84cd610865924f9f89e7e04f7bab9b7a9f64cab54318872febae1d65b"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-sandybridge.dll",
+      "sha256": "7191d9feef02f49f61b46d3c5bcd47ea598047dc24aab7872c8af2bf52e92005"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-sapphirerapids.dll",
+      "sha256": "09d655114118a7093a55d319934bcc251611c990b40aaa0ebb132c86f65ee779"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-skylakex.dll",
+      "sha256": "c9e3887b7edaab47d69c83be71d0ca1be885fd172a24d71e56bc0ccfdb00b542"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-sse42.dll",
+      "sha256": "57f131180c068af98ef4c1bb6b7ca3cf56399b10ef9610237b0546f4b10d7d21"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-x64.dll",
+      "sha256": "93b5896713f26d01585ea178f83385915c1fff7fb2ed4a9d18c4cd684808d67a"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu-zen4.dll",
+      "sha256": "1d05c94301cb79dd99bed4d577df3cbea2d80567dbf730f9171d4d968a294789"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cpu.dll",
+      "sha256": "0ffc89eacc3ddd2aadf6db4ce904655007c4b74ac16138fad10a01be7636e86c"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-cuda.dll",
+      "sha256": "36c4b16f5b436556ddabd17c5f0e23a084f8f7d0edbc1f4b5bcd602c11544a9e"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-rpc-server.exe",
+      "sha256": "0277babbeef04272880a39713a40f266a1784a434ab70be1925f96e8a3b05a23"
+    },
+    {
+      "root": "backend",
+      "path": "ggml-rpc.dll",
+      "sha256": "3442d3663612161f99db5a59cb704badcaffcb27579178c6ef2c29264db7d25c"
+    },
+    {
+      "root": "backend",
+      "path": "ggml.dll",
+      "sha256": "6a8b68957b84fb4aec6c4824f946a6608dcd34246d19c455641b624f6e8e06ec"
+    },
+    {
+      "root": "backend",
+      "path": "libomp140.x86_64.dll",
+      "sha256": "4a20c1e5c115c29771a12324513eb109badac72180f79481527ad79d996ffb33"
+    },
+    {
+      "root": "backend",
+      "path": "LICENSE",
+      "sha256": "bcd8ec749126d45cb06737d0690295d73df4b6e7e194205bcf91190368f27285"
+    },
+    {
+      "root": "backend",
+      "path": "llama-batched-bench-impl.dll",
+      "sha256": "255bfbbb6e768d27494808e5843f1c7456576aab8cf14dcd4d8f0992cd692e4e"
+    },
+    {
+      "root": "backend",
+      "path": "llama-batched-bench.exe",
+      "sha256": "8f4929938674fedac08718e9ffcb5d93b2bbd1c92d7ced02034da9eaaad66342"
+    },
+    {
+      "root": "backend",
+      "path": "llama-bench-impl.dll",
+      "sha256": "6519b0a671eb01655c450a7e83ef12d94a01ad58a78236eeb995795a539f396f"
+    },
+    {
+      "root": "backend",
+      "path": "llama-bench.exe",
+      "sha256": "4f2f7f1014fc1fbc3adafe914d70140970a5bf5caa1b8b37e4f692d557266b31"
+    },
+    {
+      "root": "backend",
+      "path": "llama-cli-impl.dll",
+      "sha256": "c12c9be8d85e11af705791d50ad22cf81648dac972e9c80df5f07ba0b9a16621"
+    },
+    {
+      "root": "backend",
+      "path": "llama-cli.exe",
+      "sha256": "48db0f638b91e8e9ceb9873be8776237eae7e797beb2bb5c78d8e97894f79fbb"
+    },
+    {
+      "root": "backend",
+      "path": "llama-common.dll",
+      "sha256": "d5f0a47613bcde8cc861e00f9dfe838b041449937f50e6ef6fcbf41ed5e7b35e"
+    },
+    {
+      "root": "backend",
+      "path": "llama-completion-impl.dll",
+      "sha256": "3b4215be0af5e1afb77dde89df4e7781af04b0d7ae7bbaebaaf39cb225877e66"
+    },
+    {
+      "root": "backend",
+      "path": "llama-completion.exe",
+      "sha256": "9b5fcd3be07fd52325e56de6196a67c1699367dbb36646df910beb30fb516d93"
+    },
+    {
+      "root": "backend",
+      "path": "llama-fit-params-impl.dll",
+      "sha256": "bb8e681666a60d1eacec142a6b010886e1fe63da8b1df40c3b6ee80754f6f891"
+    },
+    {
+      "root": "backend",
+      "path": "llama-fit-params.exe",
+      "sha256": "9b49c04164197abafafa33f537af1b18c7cf410919b22e75226905300057ab11"
+    },
+    {
+      "root": "backend",
+      "path": "llama-gemma3-cli.exe",
+      "sha256": "0cb892c975b56849e275aad75a3d21c488289eb2ecd7c96d629890291b75f4ae"
+    },
+    {
+      "root": "backend",
+      "path": "llama-gguf-split.exe",
+      "sha256": "cc1edf4087deb5f3300158bb1cef0c19685db8fffc48a6f7879316e31f4fff96"
+    },
+    {
+      "root": "backend",
+      "path": "llama-imatrix.exe",
+      "sha256": "e23037b855a0796d05a419500831249330c94a70f50cbaa9b0523473b1bf6be0"
+    },
+    {
+      "root": "backend",
+      "path": "llama-llava-cli.exe",
+      "sha256": "0cb892c975b56849e275aad75a3d21c488289eb2ecd7c96d629890291b75f4ae"
+    },
+    {
+      "root": "backend",
+      "path": "llama-minicpmv-cli.exe",
+      "sha256": "0cb892c975b56849e275aad75a3d21c488289eb2ecd7c96d629890291b75f4ae"
+    },
+    {
+      "root": "backend",
+      "path": "llama-mtmd-cli.exe",
+      "sha256": "68a6f3fc02c10ab0be828d9b33b73dca7d1a48d5dee8238c933a2eaf339066af"
+    },
+    {
+      "root": "backend",
+      "path": "llama-mtmd-debug.exe",
+      "sha256": "52e37a0e35a527558dcc0dcacac73093a2c15e224439d2a96d7e16429cd88f7e"
+    },
+    {
+      "root": "backend",
+      "path": "llama-perplexity-impl.dll",
+      "sha256": "36a7303059ceb1738c145a7a2bc2f7b65edb1bda1abbc9739e5e07f48e42ba10"
+    },
+    {
+      "root": "backend",
+      "path": "llama-perplexity.exe",
+      "sha256": "fee2fe9f83a5e5291a6eba0d519b91319b92049252769c9a9040c5f458680c2b"
+    },
+    {
+      "root": "backend",
+      "path": "llama-quantize-impl.dll",
+      "sha256": "e758296eae231c9af5fafb68b029f76715b50474954fe127c7147afc698cc333"
+    },
+    {
+      "root": "backend",
+      "path": "llama-quantize.exe",
+      "sha256": "eaca92b12c077248372fa1062551bc253d9532c3a6095661eb3f2d4c78ff8783"
+    },
+    {
+      "root": "backend",
+      "path": "llama-qwen2vl-cli.exe",
+      "sha256": "0cb892c975b56849e275aad75a3d21c488289eb2ecd7c96d629890291b75f4ae"
+    },
+    {
+      "root": "backend",
+      "path": "llama-results.exe",
+      "sha256": "8ad2fa3194068c35ee67cd08e688a2cde955f671474abadaa2b05f77278a1ca3"
+    },
+    {
+      "root": "backend",
+      "path": "llama-server-impl.dll",
+      "sha256": "51fd62f5483ce545e87fe8f6d62b2a778c3378d02a938020b171c2409751b091"
+    },
+    {
+      "root": "backend",
+      "path": "llama-server.exe",
+      "sha256": "f8f021754098bd4c15a724841fa79f68ab11ef52daa47a7be0737527c490569f"
+    },
+    {
+      "root": "backend",
+      "path": "llama-tokenize.exe",
+      "sha256": "e876f8901e661692814762f0a7fe62499d7a83ca5798d8eaa6d76b9e7630d574"
+    },
+    {
+      "root": "backend",
+      "path": "llama-tts.exe",
+      "sha256": "89126661d701fa551f1966c0fefd584982c5d19032d13928493e838bf0a802d7"
+    },
+    {
+      "root": "backend",
+      "path": "llama.dll",
+      "sha256": "b386ff86fac1a5bddabee0002adf22ddfbe8667514ee667d4408c106af5b5b18"
+    },
+    {
+      "root": "backend",
+      "path": "llama.exe",
+      "sha256": "06117dbcffc60c82a460743a60ece0859bddaf161a6f2428740ee2cfe04d45b5"
+    },
+    {
+      "root": "backend",
+      "path": "mtmd.dll",
+      "sha256": "30a8a6bd44200561d116b7848b99b4b2f34fccb764492ac7c1611b2660942a1d"
+    },
+    {
+      "root": "backend",
+      "path": "nvJitLink_120_0.dll",
+      "sha256": "f12b5959810280128393dc3a34841b8f998c9ac15d488f8922fa90f8115b5b41"
+    }
+  ],
+  "archives": [
+    {
+      "url": "https://github.com/lemonade-sdk/lemonade/releases/download/v2026.39.1/lemonade-embeddable-2026.39.1-windows-x64.zip",
+      "sha256": "235c2361be3a9729a06b92c97e40a9530ebb8e5088bd3334524472d6da7fbbca"
+    },
+    {
+      "url": "https://github.com/lemonade-sdk/llama.cpp/releases/download/b10820/llama-b10820-windows-cuda-sm_86-x64.7z",
+      "sha256": "61995f6ccefee7a09a78a356518aa1923388781b22fb0e4fe53854f7a6cbe430"
+    }
+  ],
+  "model_source": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/tree/96a21cbb3c5b717d3cdeffc5eed8a6e120d2a1a3",
+  "provenance": "Hashes from digest-verified official distributions, no binaries bundled"
+}

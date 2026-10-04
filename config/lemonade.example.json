@@ -1,0 +1,9 @@
+{
+  "config_version":2,"host":"127.0.0.1","port":13315,"broadcast":false,
+  "offline":true,"no_fetch_executables":true,"auto_check_model_updates":false,
+  "auto_update_models":false,"ctx_size":4096,"max_loaded_models":1,
+  "models_dir":"REPLACE_MODEL_DIRECTORY","extra_models_dir":"REPLACE_MODEL_DIRECTORY",
+  "log_level":"debug","log_file":"REPLACE_ISOLATED_LOG_PATH","telemetry":{"enabled":false},
+  "llamacpp":{"cuda_bin":"REPLACE_BACKEND_DIRECTORY/llama-server.exe","prefer_system":false,
+    "backend":"cuda","args":"--no-context-shift --fit off --parallel 1 --seed 4242 -ngl 99 -lv 4"}
+}

@@ -1,0 +1,13 @@
+{
+  "adapter/core.py": "5ad91d862a2dd649053b6ac7d81879d70c0597a4079e6da8b5d46bb517327849",
+  "adapter/runtime.py": "743b5020f2802264fa29defcb290b5c97cf9263b39501bfbbe05355d5683e9ea",
+  "adapter/verifier.py": "1a0d722023918f53be4c7d5a5f2a8e7441422a160269ed7b1a66b8c43937fa00",
+  "adapter/__init__.py": "655d6b75ed0799b1c36b7e3a21af103a04ce562615d856b4d85ddcba5027bba5",
+  "adapter/__main__.py": "ebd5e9e1f950b006e7614000447aabba3eeb78f61b2d015b5ed7d000c299c19d",
+  "config/agent.json": "868ab808c3236012fed0c313f823d6cffc0f0bc4042b33938adf63e392cfbad3",
+  "config/lemonade.example.json": "54bb25af50d36bb5132c0c507900f83dec83b220461f260c94f883a0f0203eff",
+  "config/runtime-lock.json": "f0ec7b163a43d993217e9ade8aa74d46905058661dcde165e3aac19217e8b1d2",
+  "corpus/answer_key.json": "7f275c01cda8ed83aedfab576cc13895411b14c6e64bbf60ecef12ccb9adb462",
+  "corpus/documents.json": "277590f78eed8b74a4d9c1820dd529f91a56f7914881b49a30415edf1470892d",
+  "tests/test_contracts.py": "f4f99ce6719909177ec74d887a55ae448d520a82e76375d3c0d9241754d9c73a"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omni-lemonade-adapter"
+version = "0.1.0"
+description = "A bounded local-agent qualification harness for Lemonade"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = ["Jinja2==3.1.6", "MarkupSafe==3.0.3"]
+
+[project.scripts]
+omni-lemonade-adapter = "adapter.__main__:main"
+
+[tool.setuptools]
+packages = ["adapter", "config", "corpus"]
+
+[tool.setuptools.package-data]
+config = ["*.json"]
+corpus = ["*.json"]

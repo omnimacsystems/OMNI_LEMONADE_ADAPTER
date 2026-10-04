@@ -1,0 +1,16 @@
+{
+  "frozen_files_verified": 11,
+  "component_tests_passed": 9,
+  "run_seals_verified": 15,
+  "html_local_links": "PASS",
+  "privacy_scan": "PASS",
+  "installed_package_resources": "PASS",
+  "private_paths": "NONE",
+  "inference_calls": 0,
+  "python_for_packaging_checks": "3.12.14",
+  "dependency_versions": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.3"
+  },
+  "limits": "Sanitized evidence selection, not original machine logs; lexical privacy scan plus scoped content selection. Hash seals are unsigned."
+}

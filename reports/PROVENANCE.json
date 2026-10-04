@@ -1,0 +1,7 @@
+{
+  "campaign": "LEMONADE-MVP-5X3-QUALIFICATION-V1",
+  "original_campaign_seal_sha256": "d6d37db88bb13fa9e34ba196877dadc13f96af34d9f5fb8f2171d2054074151f",
+  "original_source_manifest_sha256": "45762f7da8699a57b4d1e37fcee6133a58c2ae72b89bd1b51255daf6dd24d5c8",
+  "policy": "Selected synthetic reports copied byte-for-byte; private process logs, source paths and operator receipts omitted. Per-run seals retained. Campaign identity overrides legacy technical mode label without rewriting reports.",
+  "human_acceptance": "PASS"
+}

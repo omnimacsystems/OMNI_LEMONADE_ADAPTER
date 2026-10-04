@@ -1,0 +1,2 @@
+{"elapsed_seconds":0.030999999999039574,"index":0,"input_tokens":8669,"kind":"PREFLIGHT","margin":256,"prompt_sha256":"ee529eb6869e80ca5ba516f5be21b6c6b902901232729c718b09be2335e17031","reserved":512,"timestamp":"2026-10-04T21:43:49.447923+00:00"}
+{"elapsed_seconds":0.030999999999039574,"index":1,"kind":"HOLD","reason":"PREFILL_BUDGET","timestamp":"2026-10-04T21:43:49.448961+00:00"}

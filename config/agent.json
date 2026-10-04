@@ -1,0 +1,17 @@
+{
+  "schema": "QUALIFIED_AGENT_CONFIGURATION_V1",
+  "agent_role": "SYNTHETIC_DOCUMENT_READER",
+  "model": {"repository":"unsloth/Qwen3-4B-Instruct-2507-GGUF", "revision":"96a21cbb3c5b717d3cdeffc5eed8a6e120d2a1a3", "file":"Qwen3-4B-Instruct-2507-Q4_K_M.gguf", "quantization":"Q4_K_M"},
+  "harness_version": "0.1.0",
+  "context_specification": "Exact hash-verified GGUF template; synthetic user task and explicitly attributed local tool results only. No durable memory.",
+  "exposed_tools": ["list_documents", "read_document"],
+  "execution_budget": {"context_window":4096, "max_generation":512, "margin":256, "max_model_calls":3, "max_tool_calls":2, "total_timeout":120, "retry":0},
+  "dedicated_verifier": "adapter.verifier:verify_candidate",
+  "trajectory_checks": ["EXACT_PROMPT_TOKEN_ACCOUNTING", "NO_UNREAD_CITATION", "LOOP_SIGNATURE", "STRICT_ACTION_SCHEMA", "BOUNDED_CALLS", "FINISH_GATE"],
+  "repeated_trial_count": 5,
+  "failure_signatures": ["PREFILL_BUDGET", "TRUNCATED", "LOOP_SIGNATURE", "TOKEN_COUNT_DIVERGENCE", "RUNTIME_IDENTITY", "UNKNOWN_ACTION", "VERIFIER_REJECTED", "TIMEOUT", "MODEL_CALL_BUDGET", "TOOL_CALL_BUDGET"],
+  "verified_success_rate": null,
+  "promotion_status": "TECHNICAL_CANDIDATE_NOT_HUMAN_ACCEPTED",
+  "rollback_target": "STOP_ADAPTER_NO_PRODUCT_INTEGRATION",
+  "sampling": {"seed":4242, "temperature":0.2, "top_p":0.9, "top_k":20, "min_p":0.05}
+}

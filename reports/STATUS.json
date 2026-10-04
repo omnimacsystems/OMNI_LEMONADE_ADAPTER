@@ -1,0 +1,54 @@
+{
+  "mission": "LEMONADE-MVP-5X3-QUALIFICATION-V1",
+  "timestamp": "2026-10-04T21:46:06.665671+00:00",
+  "HUMAN_ACCEPTANCE_TECHNICAL_DEMO": "PASS",
+  "CAMPAIGN_5X3": "PASS",
+  "RUNS_COMPLETED": 15,
+  "MODEL_GENERATIONS": 20,
+  "RETRIES": 0,
+  "HARNESS_UNCHANGED": "YES",
+  "RUN_SEALS_VERIFIED": "PASS",
+  "TRAJECTORY_RECHECK": "PASS",
+  "TOKEN_ACCOUNTING": "PASS",
+  "RUNTIME_CLOSED": "YES",
+  "PRIVATE_OMNI_DEPENDENCY": "NONE",
+  "PRODUCT_MUTATION": "NO",
+  "PUBLIC_PUBLICATION": "NO",
+  "results": {
+    "NORMAL_SUCCESS": {
+      "trials": 5,
+      "expected_outcome_pass": 5,
+      "rate": 1.0,
+      "failures": [],
+      "distinct_initial_prompt_hashes": 1,
+      "distinct_output_sequences": 1,
+      "expected_agent_final": "PASS"
+    },
+    "TRUNCATION_OR_BUDGET_HOLD": {
+      "trials": 5,
+      "expected_outcome_pass": 5,
+      "rate": 1.0,
+      "failures": [],
+      "distinct_initial_prompt_hashes": 1,
+      "distinct_output_sequences": 1,
+      "expected_agent_final": "HOLD"
+    },
+    "LOOP_OR_FAILURE_SIGNATURE": {
+      "trials": 5,
+      "expected_outcome_pass": 5,
+      "rate": 1.0,
+      "failures": [],
+      "distinct_initial_prompt_hashes": 1,
+      "distinct_output_sequences": 1,
+      "expected_agent_final": "HOLD"
+    }
+  },
+  "LIMITS": [
+    "Five identical-seed trials on one runtime instance and host: not five independent random samples",
+    "Budget scenario tests prefill rejection, not live output truncation in this campaign",
+    "Loop deliberately induced; no natural loop-frequency estimate",
+    "No generic agent reliability score or challenge acceptance claim",
+    "Cooperative deadline and unsigned hash seals; no strong OS sandbox or immutable attestation",
+    "Original run reports retain legacy TECHNICAL_SINGLE_RUN label; AUTHORIZATION_AND_PLAN and CAMPAIGN_INDEX identify the official campaign without rewriting them"
+  ]
+}
