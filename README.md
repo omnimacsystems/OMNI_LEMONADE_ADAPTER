@@ -109,4 +109,4 @@ This project contains no private agent data and needs no parent platform install
 
 Original code: Apache-2.0; see LICENSE and THIRD_PARTY_NOTICES.md. No Lemonade, llama.cpp, CUDA, Microsoft/NVIDIA DLLs or model weights are redistributed. Third-party licenses still apply when obtaining those dependencies.
 
-This is a publication **candidate** only. No repository or submission has been published. See the [video storyboard](docs/VIDEO_STORYBOARD.md). Shut down only your owned test server with `POST /internal/shutdown` when finished; preserve all run evidence.
+The repository is public. No contest submission has been made. See the [video storyboard](docs/VIDEO_STORYBOARD.md). Shut down only your owned test server with `POST /internal/shutdown` when finished; preserve all run evidence.
